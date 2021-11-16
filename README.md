@@ -10,6 +10,8 @@
 
 作者:PYmili
 
+![狗子](http://47.108.189.192/Pymili/image/PYmili.jpg)
+
 Email：2097632843@qq.com
 
 # 现已完成功能
