@@ -1,7 +1,6 @@
 # Cherry
 
 ![Cherry](http://47.108.189.192/Pymili/logo.png)
-
 樱花是红色的
 
 解释性语言
