@@ -1,7 +1,7 @@
 # Cherry
 
 ![Cherry](http://47.108.189.192/Pymili/logo.ico)
-樱樱桃是红色的
+樱桃是红色的
 
 解释性语言
 
