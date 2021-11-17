@@ -72,7 +72,7 @@ num_b=<2>；
 exc=a<exc>b;	简介：与前面相同使用方法，只是变成除法
 Print Var exc;
 
-### 输入 Input
+# 输入 Input
 
 mess=Input "这里随意填写";	简介：这就是Input函数使用方法
 Print Var mess;	Print即可输出出来
