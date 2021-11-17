@@ -36,6 +36,7 @@ var_float=F<此处填写数字>;	简介：这是一句赋值浮点数的语句
 ## 2.Print输出
 
 var_str="Hello Cherry !  Hello PYmil !";
+
 Print Var var_str;	简介：这是输出上方变量的值
 
 Print_Str "此处填写字符串";	简介：这是输出字符串语句
@@ -47,32 +48,45 @@ Print_Int <此处填写数字>;	简介：这是输出数字的语句
 ### 加法 plus
 
 num_a=<1>;
+
 num_b=<2>；
+
 plus=a<plus>b;	简介：这就是一句两数相加的函数plus，必须是被定义变量才能相加
+
 Print Var plus;
 
 ### 减法 reduce
 
 num_a=<1>;
+  
 num_b=<2>；
+  
 er=a<reduce>b;	简介：这就是一句减法的函数reduce，必须是被定义变量才能运行
+  
 Print Var er;
 
 ### 乘法 ride
 
 num_a=<1>;
+  
 num_b=<2>；
+  
 e=a<ride>b;	简介：这就是一句两数乘的函数plus，必须是被定义变量才能运行
+  
 Print Var e;
 
 ### 除法 exc
 
 num_a=<1>;
+  
 num_b=<2>；
+  
 exc=a<exc>b;	简介：与前面相同使用方法，只是变成除法
+  
 Print Var exc;
 
 # 输入 Input
 
 mess=Input "这里随意填写";	简介：这就是Input函数使用方法
+  
 Print Var mess;	Print即可输出出来
