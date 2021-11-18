@@ -7,7 +7,7 @@
 
 使用Python编写 Python编写的解释器 --> 解释代码 --> 转换为Python语言
 
-版本：0.2vBeta
+版本：0.3vBeta
 
 作者:PYmili
 
@@ -90,3 +90,31 @@ Print Var exc;
 mess=Input "这里随意填写";	简介：这就是Input函数使用方法
   
 Print Var mess;	Print即可输出出来
+
+# 列表 List
+
+### 创建列表
+
+msg=List_Str【我,是,PYmili】;	创建一个字符串列表，注意！【】这个符号是中文符号！
+
+msg_num=List_Num【1,10,50,1.131415962】;	创建一个数字列表
+
+### 访问列表值
+
+msg=List_St【1,2,3】;
+
+mess=List【msg<1>】	访问；列表msg中的位于1的值也就是"2"可访问位置看列表有多少从0开始计算
+
+Print Var mess;	即可访问值
+
+### 删除列表指定值 remove
+
+msg=List_Str【a,b,c】;
+
+msg remove【a】;	删除值‘a’
+
+### 添加值 addto
+
+msg=List_Str【a,b,c】;
+
+msg addto<此处填写要添加至的位置如：1或2>【要添加的内容】		添加值
