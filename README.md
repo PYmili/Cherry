@@ -7,7 +7,9 @@
 
 使用Python编写 Python编写的解释器 --> 解释代码 --> 转换为Python语言
 
-版本：0.3.1vBeta
+## 提示：0.3.2vBeta版本更改了-r命令无法运行的情况
+
+版本：0.3.2vBeta
 
 作者:PYmili
 
@@ -51,7 +53,7 @@ num_a=<1>;
 
 num_b=<2>；
 
-plus=a<plus>b;	简介：这就是一句两数相加的函数plus，必须是被定义变量才能相加
+plus=num_a<plus>num_b;	简介：这就是一句两数相加的函数plus，必须是被定义变量才能相加
 
 Print Var plus;
 
