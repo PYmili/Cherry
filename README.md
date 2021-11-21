@@ -9,7 +9,7 @@
 
 ## 提示：0.3.2vBeta版本更改了-r命令无法运行的情况
 
-版本：0.3.2vBeta
+版本：0.3.3vBeta版本更新了字典相应操作
 
 作者:PYmili
 
@@ -43,7 +43,7 @@ Print Var var_str;	简介：这是输出上方变量的值
 
 Print_Str "此处填写字符串";	简介：这是输出字符串语句
 
-Print_Int <此处填写数字>;	简介：这是输出数字的语句
+Print_Num <此处填写数字>;	简介：这是输出数字的语句，可以输出整数和浮点数
 
 ## 3.加减乘除
 
@@ -93,6 +93,12 @@ mess=Input "这里随意填写";	简介：这就是Input函数使用方法
   
 Print Var mess;	Print即可输出出来
 
+hello="你好:";
+
+mes=Input Var hello;	获取指定变量名，获取变量名内容（必须是字符串）转换成输入时要显示的内容。
+
+Print Var mes;
+
 # 列表 List
 
 ### 创建列表
@@ -103,7 +109,7 @@ msg_num=List_Num【1,10,50,1.131415962】;	创建一个数字列表
 
 ### 访问列表值
 
-msg=List_St【1,2,3】;
+msg=List_Str【1,2,3】;
 
 mess=List【msg<1>】	访问；列表msg中的位于1的值也就是"2"可访问位置看列表有多少从0开始计算
 
@@ -120,3 +126,21 @@ msg remove【a】;	删除值‘a’
 msg=List_Str【a,b,c】;
 
 msg addto<此处填写要添加至的位置如：1或2>【要添加的内容】		添加值
+
+# 字典Dict
+
+## 创建一个字典
+
+dict=Dict【a】="Hello";	创建一个字典
+
+Print Var dict;	输出出来的内容：{"a":"Hello"}
+
+## 删除字典内容 del
+
+dict=Dict【a】="Hello";
+
+dict del 【a】;	del删除元素a
+
+Print Var dict;	输出内容是：{}
+
+# 有问题或提交BUG可加QQ群：706128290，非常感谢！
