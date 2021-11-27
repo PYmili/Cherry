@@ -3,6 +3,8 @@
 ![Cherry](http://47.108.189.192/Pymili/logo.ico)
 樱桃是红色的
 
+## 下载链接：http://47.108.189.192/Cherry/
+
 解释性语言
 
 使用Python编写 Python编写的解释器 --> 解释代码 --> 转换为Python语言
